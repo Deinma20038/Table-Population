@@ -1,0 +1,27 @@
+#table{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+#table th{
+    background-color: #ef3bef;
+    color: #fff;
+}
+
+
+#table td,
+#table th{
+    padding: 10px 20px;
+}
+
+#table tr:nth-of-type(even) {
+    background: #eeeeee;
+
+}
+
+#table tr:last-of-type{
+    border-bottom: 2px solid #ef3bef;
+}
